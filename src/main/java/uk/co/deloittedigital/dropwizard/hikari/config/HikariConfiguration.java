@@ -20,7 +20,6 @@ import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.health.HealthCheckRegistry;
 import com.zaxxer.hikari.HikariConfig;
 import io.dropwizard.db.ManagedDataSource;
-import lombok.Data;
 import uk.co.deloittedigital.dropwizard.hikari.ManagedHikariPoolWrapper;
 
 import java.util.Properties;
@@ -30,7 +29,6 @@ import java.util.concurrent.TimeUnit;
  * Configuration for HikariCP data source. See https://github.com/brettwooldridge/HikariCP/wiki/Configuration
  * for available settings.
  */
-@Data
 public class HikariConfiguration {
 
     private ManagedDataSource managedDataSource;
