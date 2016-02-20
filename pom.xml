@@ -23,7 +23,7 @@
     <parent>
         <groupId>uk.co.deloittedigital.opensource</groupId>
         <artifactId>simple-parent-pom</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.1</version>
     </parent>
 
     <groupId>uk.co.deloittedigital.dropwizard</groupId>
