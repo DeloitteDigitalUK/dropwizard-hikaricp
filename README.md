@@ -1,5 +1,7 @@
 # Dropwizard HikariCP bundle
 
+[![Circle CI](https://circleci.com/gh/DeloitteDigitalUK/dropwizard-hikaricp.svg?style=svg)](https://circleci.com/gh/DeloitteDigitalUK/dropwizard-hikaricp)
+
 ## Usage
 
 In your service's `initialize` method, add the bundle:
