@@ -2,6 +2,11 @@
 
 [![Circle CI](https://circleci.com/gh/DeloitteDigitalUK/dropwizard-hikaricp.svg?style=svg)](https://circleci.com/gh/DeloitteDigitalUK/dropwizard-hikaricp)
 
+## Overview
+
+This Dropwizard bundle adds support for the excellent [HikariCP](https://github.com/brettwooldridge/HikariCP) database
+connection pool library. This includes metrics and healthchecks support.
+
 ## Usage
 
 In your service's `initialize` method, add the bundle:
