@@ -79,6 +79,41 @@
             <plugin>
                 <artifactId>maven-jar-plugin</artifactId>
             </plugin>
+            <plugin>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+            </plugin>
         </plugins>
     </build>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Richard North</name>
+            <email>rnorth@deloitte.co.uk</email>
+            <organization>Deloitte Digital</organization>
+            <organizationUrl>http://www.deloittedigital.co.uk</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:DeloitteDigitalUK/dropwizard-hikaricp.git</connection>
+        <developerConnection>scm:git:git@github.com:DeloitteDigitalUK/dropwizard-hikaricp.git</developerConnection>
+        <url>git@github.com:DeloitteDigitalUK/dropwizard-hikaricp.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray-deloittedigitaluk-maven</id>
+            <name>deloittedigitaluk-maven</name>
+            <url>https://api.bintray.com/maven/deloittedigitaluk/maven/dropwizard-hikaricp</url>
+        </repository>
+    </distributionManagement>
 </project>
