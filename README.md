@@ -7,6 +7,20 @@
 This Dropwizard bundle adds support for the excellent [HikariCP](https://github.com/brettwooldridge/HikariCP) database
 connection pool library. This includes metrics and healthchecks support.
 
+## Obtaining the library
+
+### Maven
+
+    <dependency>
+        <groupId>uk.co.deloittedigital.dropwizard</groupId>
+        <artifactId>dropwizard-hikaricp</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+
+### Gradle
+
+    compile 'uk.co.deloittedigital.dropwizard:dropwizard-hikaricp:1.0.0'
+
 ## Usage
 
 In your service's `initialize` method, add the bundle:
